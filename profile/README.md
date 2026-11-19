@@ -6,6 +6,8 @@ Security fixes for the Linux base you already use, delivered as a versioned laye
 
 Compatible products on the same supported base can use the same maintained patch release, including products from different manufacturers. Their applications and final firmware stay their own. During onboarding, we check relevant component revisions, configuration, and existing patches without requiring proprietary application source.
 
+## Pilot scope and validation
+
 Onboarding starts with a fixed-price pilot covering three upstream-backed user-space CVE cases on one pinned reference base. We agree the scope, price, and acceptance criteria before work starts. Component coverage, response targets, release cadence, and support period are agreed before ongoing maintenance begins.
 
 Firmdura owns reference validation. Your team owns final firmware builds, product and hardware tests, approval, signing, and deployment.
