@@ -8,11 +8,13 @@ Compatible products on the same supported base can use the same maintained patch
 
 ## Pilot scope and validation
 
-Onboarding starts with a fixed-price pilot covering three upstream-backed user-space CVE cases on one pinned reference base. We agree the scope, price, and acceptance criteria before work starts. Component coverage, response targets, release cadence, and support period are agreed before ongoing maintenance begins.
+To request a [free assessment](https://firmdura.com/contact.html), tell us which build system and release you use. If you have a suitable Yocto build, you can ask about a limited paid trial for one user-space CVE.
+
+We quote the pilot separately. It covers three user-space CVEs with known upstream fixes on one pinned reference base. We agree the scope, fixed price, and acceptance criteria before work starts. Component coverage, response targets, release cadence, and support period are agreed before ongoing maintenance begins.
 
 Firmdura owns reference validation. Your team owns final firmware builds, product and hardware tests, approval, signing, and deployment.
 
-[Explore security maintenance](https://firmdura.com/security-maintenance.html) · [How it works](https://firmdura.com/how-it-works.html) · [Discuss your base](https://firmdura.com/contact.html)
+[Explore security maintenance](https://firmdura.com/security-maintenance.html) · [How it works](https://firmdura.com/how-it-works.html)
 
 ## Public engineering work
 
