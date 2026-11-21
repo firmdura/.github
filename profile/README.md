@@ -2,6 +2,8 @@
 
 **Shared security maintenance for embedded Linux.**
 
+Auf Deutsch: [Sicherheitswartung für Embedded Linux](https://firmdura.com/de/security-maintenance.html) · [Ersteinschätzung anfragen](https://firmdura.com/de/contact.html)
+
 Security fixes for the Linux base you already use, delivered as a versioned layer or patch overlay for your existing build system. The maintenance subscription covers agreed user-space components and includes build integration files and results from our reference tests.
 
 Compatible products on the same supported base can use the same maintained patch release, including products from different manufacturers. Their applications and final firmware stay their own. During onboarding, we check relevant component revisions, configuration, and existing patches without requiring proprietary application source.
