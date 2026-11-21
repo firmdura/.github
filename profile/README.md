@@ -16,6 +16,14 @@ Firmdura owns reference validation. Your team owns final firmware builds, produc
 
 [Explore security maintenance](https://firmdura.com/security-maintenance.html) · [How it works](https://firmdura.com/how-it-works.html)
 
+### Bases other than Yocto
+
+These details help us assess whether we can support your release in a pilot:
+
+- **Buildroot:** the Buildroot tag and `defconfig`.
+- **OpenWrt:** the OpenWrt or vendor SDK release and feed revisions.
+- **Debian/CIP:** the user-space snapshot and source package revisions.
+
 ## Public engineering work
 
 These repositories contain verification utilities and reference examples that make individual engineering checks inspectable and reproducible. They support the maintenance work; the commercial product is the maintained patches and their release evidence. Each repository documents its own scope and limitations.
