@@ -10,7 +10,9 @@ Compatible products on the same supported base can use the same maintained patch
 
 ## Pilot scope and validation
 
-To request a [free assessment](https://firmdura.com/contact.html), tell us which build system and release you use. If you have a suitable Yocto build, you can ask about a limited paid trial for one user-space CVE.
+To request a [free assessment](https://firmdura.com/contact.html), name your build system and include the release or branch if you know it. A line like “Yocto Kirkstone” is enough; you don't need to name a package or CVE.
+
+If you have a suitable Yocto build, you can ask about a limited paid trial for one user-space CVE.
 
 We quote the pilot separately. It covers three user-space CVEs with known upstream fixes on one pinned reference base. We agree the scope, fixed price, and acceptance criteria before work starts. Component coverage, response targets, release cadence, and support period are agreed before ongoing maintenance begins.
 
