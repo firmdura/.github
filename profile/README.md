@@ -28,12 +28,15 @@ These details help us assess whether we can support your release in a pilot:
 - **OpenWrt:** the OpenWrt or vendor SDK release and feed revisions.
 - **Debian/CIP:** the user-space snapshot and source package revisions.
 
+## Reviewing a pilot handoff
+
+1. Check the delivered files against the SHA-256 checksums in the [pilot handoff](https://firmdura.com/how-it-works.html#engagement). Pin the candidate layer or patch overlay to the supplied Git revision in your build.
+2. For each CVE, read its status record (VEX) alongside the reference build and test results. If an agreed check failed or wasn't run, the case stays open.
+3. Before signing your firmware, verify that the fix is in the image you built and test that image on your hardware. Passing reference tests do not establish that the fix is in your image.
+
 ## Public engineering work
 
-These repositories contain verification utilities and reference examples that make individual engineering checks inspectable and reproducible. They support the maintenance work; the commercial product is the maintained patches and their release evidence. Each repository documents its own scope and limitations.
-
-- [32-bit ARM Wget backport walkthrough](https://firmdura.com/case-study.html): completed component testing, with reproduction links and test boundaries.
-- [Kirkstone reference sample](https://github.com/firmdura/meta-firmdura-kirkstone): source, reference-build evidence, and the sample's current status.
+Browse [Firmdura's public repositories](https://github.com/orgs/firmdura/repositories) for verification utilities and reference examples. Each example's test results apply to the build it describes.
 
 ---
 
