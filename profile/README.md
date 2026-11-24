@@ -18,7 +18,7 @@ We quote the pilot separately. It covers three user-space CVEs with known upstre
 
 Firmdura owns reference validation. Your team owns final firmware builds, product and hardware tests, approval, signing, and deployment.
 
-[Explore security maintenance](https://firmdura.com/security-maintenance.html) · [How it works](https://firmdura.com/how-it-works.html)
+[Explore security maintenance](https://firmdura.com/security-maintenance.html) · [What the pilot covers](https://firmdura.com/how-it-works.html#engagement)
 
 ### Bases other than Yocto
 
@@ -30,7 +30,7 @@ These details help us assess whether we can support your release in a pilot:
 
 ## Reviewing a pilot handoff
 
-1. Check the delivered files against the SHA-256 checksums in the [pilot handoff](https://firmdura.com/how-it-works.html#engagement). Pin the candidate layer or patch overlay to the supplied Git revision in your build.
+1. Compare each delivered file's SHA-256 checksum with the value in your candidate handoff. If a checksum is missing or doesn't match, stop before building. Pin the layer or patch overlay to the Git revision in the same handoff.
 2. For each CVE, read its status record (VEX) alongside the reference build and test results. If an agreed check failed or wasn't run, the case stays open.
 3. Before signing your firmware, verify that the fix is in the image you built and test that image on your hardware. Passing reference tests do not establish that the fix is in your image.
 
