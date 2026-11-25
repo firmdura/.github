@@ -32,7 +32,7 @@ These details help us assess whether we can support your release in a pilot:
 
 1. Compare each delivered file's SHA-256 checksum with the value in your candidate handoff. If a checksum is missing or doesn't match, stop before building. Pin the layer or patch overlay to the Git revision in the same handoff.
 2. For each CVE, read its status record (VEX) alongside the reference build and test results. If an agreed check failed or wasn't run, the case stays open.
-3. Before signing your firmware, verify that the fix is in the image you built and test that image on your hardware. Passing reference tests do not establish that the fix is in your image.
+3. Trace the affected package from your final image's manifest to its build records. Check the source revision and applied patches for the fix; a backport can leave the upstream version unchanged. Test that image on your hardware before signing it. Passing reference tests do not establish that the fix is in your image.
 
 ## Public engineering work
 
